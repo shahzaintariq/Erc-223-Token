@@ -9,7 +9,7 @@ pragma solidity ^0.6.1;
  * for the associated interfaces in said registry. See {IERC1820Registry} and
  * {ERC1820Implementer}.
  */
-interface IERC777 {
+interface Ierc777 {
     /**
      * @dev Returns the name of the token.
      */
