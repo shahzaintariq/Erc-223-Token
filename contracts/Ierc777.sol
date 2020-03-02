@@ -36,9 +36,9 @@ interface Ierc777 {
     function totalSupply() external view returns (uint256);
 
     /**
-     * @dev Returns the amount of tokens owned by an account (`owner`).
+     * @dev Returns the amount of tokens owned by an account (`owner`)/holder.
      */
-    function balanceOf(address owner) external view returns (uint256);
+    function balanceOf(address holder) external view returns (uint256);
 
     /**
      * @dev Moves `amount` tokens from the caller's account to `recipient`.
